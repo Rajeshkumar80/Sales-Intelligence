@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <property>
+    <name>dfs.replication</name>
+    <value>1</value>
+  </property>
+  <property>
+    <name>dfs.namenode.name.dir</name>
+    <value>file:///home/rajesh/BDA-Projects/infra/data/hdfs/name</value>
+  </property>
+  <property>
+    <name>dfs.datanode.data.dir</name>
+    <value>file:///home/rajesh/BDA-Projects/infra/data/hdfs/data</value>
+  </property>
+  <property>
+    <name>dfs.namenode.rpc-address</name>
+    <value>127.0.0.1:9000</value>
+  </property>
+  <property>
+    <name>dfs.namenode.http-address</name>
+    <value>0.0.0.0:9870</value>
+  </property>
+  <property>
+    <name>dfs.blocksize</name>
+    <value>67108864</value>
+  </property>
+  <property>
+    <name>dfs.namenode.handler.count</name>
+    <value>10</value>
+  </property>
+  <property>
+    <name>dfs.datanode.handler.count</name>
+    <value>5</value>
+  </property>
+  <property>
+    <name>dfs.permissions.enabled</name>
+    <value>true</value>
+  </property>
+</configuration>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <property>
+    <name>fs.defaultFS</name>
+    <value>hdfs://127.0.0.1:9000</value>
+  </property>
+  <property>
+    <name>hadoop.tmp.dir</name>
+    <value>/home/rajesh/BDA-Projects/infra/data/hadoop-tmp</value>
+  </property>
+  <property>
+    <name>io.file.buffer.size</name>
+    <value>131072</value>
+  </property>
+  <property>
+    <name>hadoop.http.staticuser.user</name>
+    <value>rajesh</value>
+  </property>
+</configuration>

@@ -1,0 +1,48 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Java
+target/
+*.class
+
+# Runtime data, logs and local installs
+infra/installed/
+infra/downloads/
+infra/data/
+infra/logs/
+infra/run/
+metastore_db/
+derby.log
+*.log
+*.pid
+*.out
+
+# Local planning and other projects (not part of this repository)
+documentation/
+shared-datasets/
+smart-energy-intelligence/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

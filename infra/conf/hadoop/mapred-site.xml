@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <property>
+    <name>mapreduce.framework.name</name>
+    <value>yarn</value>
+  </property>
+  <property>
+    <name>mapreduce.jobhistory.address</name>
+    <value>127.0.0.1:10020</value>
+  </property>
+  <property>
+    <name>mapreduce.jobhistory.webapp.address</name>
+    <value>0.0.0.0:19888</value>
+  </property>
+  <property>
+    <name>mapreduce.input.fileinputformat.split.maxsize</name>
+    <value>1048576</value>
+  </property>
+  <property>
+    <name>mapreduce.input.fileinputformat.split.minsize</name>
+    <value>131072</value>
+  </property>
+  <property>
+    <name>mapreduce.job.reduces</name>
+    <value>1</value>
+  </property>
+  <property>
+    <name>yarn.app.mapreduce.am.env</name>
+    <value>HADOOP_MAPRED_HOME=/home/rajesh/BDA-Projects/infra/installed/hadoop</value>
+  </property>
+  <property>
+    <name>mapreduce.map.env</name>
+    <value>HADOOP_MAPRED_HOME=/home/rajesh/BDA-Projects/infra/installed/hadoop</value>
+  </property>
+  <property>
+    <name>mapreduce.reduce.env</name>
+    <value>HADOOP_MAPRED_HOME=/home/rajesh/BDA-Projects/infra/installed/hadoop</value>
+  </property>
+  <property>
+    <name>yarn.app.mapreduce.am.command-opts</name>
+    <value>-Xmx512m --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED</value>
+  </property>
+  <property>
+    <name>mapreduce.map.java.opts</name>
+    <value>-Xmx384m --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED</value>
+  </property>
+  <property>
+    <name>mapreduce.reduce.java.opts</name>
+    <value>-Xmx640m --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED</value>
+  </property>
+  <property>
+    <name>mapreduce.map.memory.mb</name>
+    <value>512</value>
+  </property>
+  <property>
+    <name>mapreduce.reduce.memory.mb</name>
+    <value>768</value>
+  </property>
+  <property>
+    <name>mapreduce.client.submit.file.replication</name>
+    <value>1</value>
+  </property>
+</configuration>

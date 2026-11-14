@@ -1,0 +1,829 @@
+{
+  "rows": 10000,
+  "total_transactions": 10000,
+  "total_quantity": 21154,
+  "total_products": 16,
+  "total_revenue": 3034634.23,
+  "products": [
+    {
+      "product_id": "P-2002",
+      "revenue": 457723.31,
+      "quantity": 1312,
+      "orders": 606,
+      "product_name": "Standing Desk"
+    },
+    {
+      "product_id": "P-3002",
+      "revenue": 378808.88,
+      "quantity": 1357,
+      "orders": 622,
+      "product_name": "Espresso Machine"
+    },
+    {
+      "product_id": "P-6002",
+      "revenue": 350618.02,
+      "quantity": 1410,
+      "orders": 664,
+      "product_name": "Adjustable Dumbbell Set"
+    },
+    {
+      "product_id": "P-1004",
+      "revenue": 299223.96,
+      "quantity": 1359,
+      "orders": 632,
+      "product_name": "27-inch Monitor"
+    },
+    {
+      "product_id": "P-2001",
+      "revenue": 235542.81,
+      "quantity": 1244,
+      "orders": 586,
+      "product_name": "Ergonomic Office Chair"
+    },
+    {
+      "product_id": "P-4002",
+      "revenue": 200998.62,
+      "quantity": 1262,
+      "orders": 585,
+      "product_name": "Waterproof Jacket"
+    },
+    {
+      "product_id": "P-3001",
+      "revenue": 198940.4,
+      "quantity": 1335,
+      "orders": 641,
+      "product_name": "Stainless Steel Cookware Set"
+    },
+    {
+      "product_id": "P-1003",
+      "revenue": 173377.56,
+      "quantity": 1343,
+      "orders": 618,
+      "product_name": "Noise Cancelling Headphones"
+    },
+    {
+      "product_id": "P-4001",
+      "revenue": 160496.65,
+      "quantity": 1347,
+      "orders": 638,
+      "product_name": "Running Shoes"
+    },
+    {
+      "product_id": "P-5001",
+      "revenue": 129137.47,
+      "quantity": 1303,
+      "orders": 636,
+      "product_name": "Cordless Drill"
+    },
+    {
+      "product_id": "P-2003",
+      "revenue": 118203.03,
+      "quantity": 1313,
+      "orders": 632,
+      "product_name": "Bookshelf, 5 Tier"
+    },
+    {
+      "product_id": "P-3003",
+      "revenue": 107746.28,
+      "quantity": 1352,
+      "orders": 637,
+      "product_name": "Blender Pro"
+    },
+    {
+      "product_id": "P-5002",
+      "revenue": 81737.82,
+      "quantity": 1267,
+      "orders": 618,
+      "product_name": "Socket Wrench Kit"
+    },
+    {
+      "product_id": "P-1001",
+      "revenue": 59051.38,
+      "quantity": 1388,
+      "orders": 672,
+      "product_name": "Wireless Keyboard"
+    },
+    {
+      "product_id": "P-6001",
+      "revenue": 43989.89,
+      "quantity": 1260,
+      "orders": 604,
+      "product_name": "Yoga Mat"
+    },
+    {
+      "product_id": "P-1002",
+      "revenue": 39038.15,
+      "quantity": 1302,
+      "orders": 609,
+      "product_name": "USB-C Hub"
+    }
+  ],
+  "top_10_products": [
+    {
+      "product_id": "P-2002",
+      "revenue": 457723.31,
+      "quantity": 1312,
+      "orders": 606,
+      "product_name": "Standing Desk"
+    },
+    {
+      "product_id": "P-3002",
+      "revenue": 378808.88,
+      "quantity": 1357,
+      "orders": 622,
+      "product_name": "Espresso Machine"
+    },
+    {
+      "product_id": "P-6002",
+      "revenue": 350618.02,
+      "quantity": 1410,
+      "orders": 664,
+      "product_name": "Adjustable Dumbbell Set"
+    },
+    {
+      "product_id": "P-1004",
+      "revenue": 299223.96,
+      "quantity": 1359,
+      "orders": 632,
+      "product_name": "27-inch Monitor"
+    },
+    {
+      "product_id": "P-2001",
+      "revenue": 235542.81,
+      "quantity": 1244,
+      "orders": 586,
+      "product_name": "Ergonomic Office Chair"
+    },
+    {
+      "product_id": "P-4002",
+      "revenue": 200998.62,
+      "quantity": 1262,
+      "orders": 585,
+      "product_name": "Waterproof Jacket"
+    },
+    {
+      "product_id": "P-3001",
+      "revenue": 198940.4,
+      "quantity": 1335,
+      "orders": 641,
+      "product_name": "Stainless Steel Cookware Set"
+    },
+    {
+      "product_id": "P-1003",
+      "revenue": 173377.56,
+      "quantity": 1343,
+      "orders": 618,
+      "product_name": "Noise Cancelling Headphones"
+    },
+    {
+      "product_id": "P-4001",
+      "revenue": 160496.65,
+      "quantity": 1347,
+      "orders": 638,
+      "product_name": "Running Shoes"
+    },
+    {
+      "product_id": "P-5001",
+      "revenue": 129137.47,
+      "quantity": 1303,
+      "orders": 636,
+      "product_name": "Cordless Drill"
+    }
+  ],
+  "categories": [
+    {
+      "category": "Apparel",
+      "revenue": 361495.27,
+      "quantity": 2609
+    },
+    {
+      "category": "Electronics",
+      "revenue": 570691.05,
+      "quantity": 5392
+    },
+    {
+      "category": "Furniture",
+      "revenue": 811469.15,
+      "quantity": 3869
+    },
+    {
+      "category": "Kitchen",
+      "revenue": 685495.56,
+      "quantity": 4044
+    },
+    {
+      "category": "Sports",
+      "revenue": 394607.91,
+      "quantity": 2670
+    },
+    {
+      "category": "Tools",
+      "revenue": 210875.29,
+      "quantity": 2570
+    }
+  ],
+  "regions": [
+    {
+      "region": "Central",
+      "revenue": 611356.84,
+      "quantity": 4241,
+      "orders": 2030
+    },
+    {
+      "region": "East",
+      "revenue": 627755.02,
+      "quantity": 4348,
+      "orders": 2096
+    },
+    {
+      "region": "North",
+      "revenue": 585890.13,
+      "quantity": 4166,
+      "orders": 1955
+    },
+    {
+      "region": "South",
+      "revenue": 625572.84,
+      "quantity": 4192,
+      "orders": 1972
+    },
+    {
+      "region": "West",
+      "revenue": 584059.4,
+      "quantity": 4207,
+      "orders": 1947
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-08-13",
+      "revenue": 37570.86,
+      "quantity": 259,
+      "orders": 123
+    },
+    {
+      "date": "2026-08-14",
+      "revenue": 32026.2,
+      "quantity": 224,
+      "orders": 107
+    },
+    {
+      "date": "2026-08-15",
+      "revenue": 31767.0,
+      "quantity": 225,
+      "orders": 97
+    },
+    {
+      "date": "2026-08-16",
+      "revenue": 34419.99,
+      "quantity": 224,
+      "orders": 116
+    },
+    {
+      "date": "2026-08-17",
+      "revenue": 39941.37,
+      "quantity": 254,
+      "orders": 125
+    },
+    {
+      "date": "2026-08-18",
+      "revenue": 38819.12,
+      "quantity": 283,
+      "orders": 126
+    },
+    {
+      "date": "2026-08-19",
+      "revenue": 36178.16,
+      "quantity": 237,
+      "orders": 118
+    },
+    {
+      "date": "2026-08-20",
+      "revenue": 26994.23,
+      "quantity": 195,
+      "orders": 99
+    },
+    {
+      "date": "2026-08-21",
+      "revenue": 30476.39,
+      "quantity": 227,
+      "orders": 103
+    },
+    {
+      "date": "2026-08-22",
+      "revenue": 34044.97,
+      "quantity": 267,
+      "orders": 121
+    },
+    {
+      "date": "2026-08-23",
+      "revenue": 35526.39,
+      "quantity": 209,
+      "orders": 105
+    },
+    {
+      "date": "2026-08-24",
+      "revenue": 34052.08,
+      "quantity": 215,
+      "orders": 111
+    },
+    {
+      "date": "2026-08-25",
+      "revenue": 31566.32,
+      "quantity": 224,
+      "orders": 107
+    },
+    {
+      "date": "2026-08-26",
+      "revenue": 35933.28,
+      "quantity": 270,
+      "orders": 118
+    },
+    {
+      "date": "2026-08-27",
+      "revenue": 36247.17,
+      "quantity": 255,
+      "orders": 115
+    },
+    {
+      "date": "2026-08-28",
+      "revenue": 30354.46,
+      "quantity": 222,
+      "orders": 117
+    },
+    {
+      "date": "2026-08-29",
+      "revenue": 36408.53,
+      "quantity": 243,
+      "orders": 105
+    },
+    {
+      "date": "2026-08-30",
+      "revenue": 30576.98,
+      "quantity": 211,
+      "orders": 98
+    },
+    {
+      "date": "2026-08-31",
+      "revenue": 31602.99,
+      "quantity": 266,
+      "orders": 113
+    },
+    {
+      "date": "2026-09-01",
+      "revenue": 39214.4,
+      "quantity": 248,
+      "orders": 119
+    },
+    {
+      "date": "2026-09-02",
+      "revenue": 26961.48,
+      "quantity": 204,
+      "orders": 102
+    },
+    {
+      "date": "2026-09-03",
+      "revenue": 30594.78,
+      "quantity": 226,
+      "orders": 106
+    },
+    {
+      "date": "2026-09-04",
+      "revenue": 27763.75,
+      "quantity": 200,
+      "orders": 99
+    },
+    {
+      "date": "2026-09-05",
+      "revenue": 35552.37,
+      "quantity": 228,
+      "orders": 106
+    },
+    {
+      "date": "2026-09-06",
+      "revenue": 31621.04,
+      "quantity": 218,
+      "orders": 107
+    },
+    {
+      "date": "2026-09-07",
+      "revenue": 40743.93,
+      "quantity": 260,
+      "orders": 119
+    },
+    {
+      "date": "2026-09-08",
+      "revenue": 29374.98,
+      "quantity": 237,
+      "orders": 103
+    },
+    {
+      "date": "2026-09-09",
+      "revenue": 34493.78,
+      "quantity": 226,
+      "orders": 106
+    },
+    {
+      "date": "2026-09-10",
+      "revenue": 44147.55,
+      "quantity": 294,
+      "orders": 133
+    },
+    {
+      "date": "2026-09-11",
+      "revenue": 25187.09,
+      "quantity": 205,
+      "orders": 110
+    },
+    {
+      "date": "2026-09-12",
+      "revenue": 29058.56,
+      "quantity": 231,
+      "orders": 103
+    },
+    {
+      "date": "2026-09-13",
+      "revenue": 39971.14,
+      "quantity": 253,
+      "orders": 120
+    },
+    {
+      "date": "2026-09-14",
+      "revenue": 35330.35,
+      "quantity": 232,
+      "orders": 98
+    },
+    {
+      "date": "2026-09-15",
+      "revenue": 33631.12,
+      "quantity": 240,
+      "orders": 109
+    },
+    {
+      "date": "2026-09-16",
+      "revenue": 35132.91,
+      "quantity": 217,
+      "orders": 97
+    },
+    {
+      "date": "2026-09-17",
+      "revenue": 32601.71,
+      "quantity": 261,
+      "orders": 115
+    },
+    {
+      "date": "2026-09-18",
+      "revenue": 34262.99,
+      "quantity": 226,
+      "orders": 101
+    },
+    {
+      "date": "2026-09-19",
+      "revenue": 45776.99,
+      "quantity": 288,
+      "orders": 124
+    },
+    {
+      "date": "2026-09-20",
+      "revenue": 24602.38,
+      "quantity": 181,
+      "orders": 97
+    },
+    {
+      "date": "2026-09-21",
+      "revenue": 37257.65,
+      "quantity": 266,
+      "orders": 120
+    },
+    {
+      "date": "2026-09-22",
+      "revenue": 32341.53,
+      "quantity": 232,
+      "orders": 113
+    },
+    {
+      "date": "2026-09-23",
+      "revenue": 36760.35,
+      "quantity": 267,
+      "orders": 118
+    },
+    {
+      "date": "2026-09-24",
+      "revenue": 34133.53,
+      "quantity": 254,
+      "orders": 124
+    },
+    {
+      "date": "2026-09-25",
+      "revenue": 37036.55,
+      "quantity": 224,
+      "orders": 100
+    },
+    {
+      "date": "2026-09-26",
+      "revenue": 30123.8,
+      "quantity": 228,
+      "orders": 108
+    },
+    {
+      "date": "2026-09-27",
+      "revenue": 34217.37,
+      "quantity": 235,
+      "orders": 118
+    },
+    {
+      "date": "2026-09-28",
+      "revenue": 36041.4,
+      "quantity": 238,
+      "orders": 116
+    },
+    {
+      "date": "2026-09-29",
+      "revenue": 38327.36,
+      "quantity": 232,
+      "orders": 108
+    },
+    {
+      "date": "2026-09-30",
+      "revenue": 39131.17,
+      "quantity": 277,
+      "orders": 122
+    },
+    {
+      "date": "2026-10-01",
+      "revenue": 28977.28,
+      "quantity": 191,
+      "orders": 97
+    },
+    {
+      "date": "2026-10-02",
+      "revenue": 20245.68,
+      "quantity": 176,
+      "orders": 87
+    },
+    {
+      "date": "2026-10-03",
+      "revenue": 28485.19,
+      "quantity": 203,
+      "orders": 104
+    },
+    {
+      "date": "2026-10-04",
+      "revenue": 37085.12,
+      "quantity": 235,
+      "orders": 114
+    },
+    {
+      "date": "2026-10-05",
+      "revenue": 35023.57,
+      "quantity": 250,
+      "orders": 116
+    },
+    {
+      "date": "2026-10-06",
+      "revenue": 40151.4,
+      "quantity": 298,
+      "orders": 144
+    },
+    {
+      "date": "2026-10-07",
+      "revenue": 36258.0,
+      "quantity": 244,
+      "orders": 121
+    },
+    {
+      "date": "2026-10-08",
+      "revenue": 28125.05,
+      "quantity": 206,
+      "orders": 95
+    },
+    {
+      "date": "2026-10-09",
+      "revenue": 36287.27,
+      "quantity": 247,
+      "orders": 113
+    },
+    {
+      "date": "2026-10-10",
+      "revenue": 35104.22,
+      "quantity": 262,
+      "orders": 128
+    },
+    {
+      "date": "2026-10-11",
+      "revenue": 35045.12,
+      "quantity": 238,
+      "orders": 120
+    },
+    {
+      "date": "2026-10-12",
+      "revenue": 37983.61,
+      "quantity": 263,
+      "orders": 118
+    },
+    {
+      "date": "2026-10-13",
+      "revenue": 30903.9,
+      "quantity": 227,
+      "orders": 110
+    },
+    {
+      "date": "2026-10-14",
+      "revenue": 41067.68,
+      "quantity": 287,
+      "orders": 124
+    },
+    {
+      "date": "2026-10-15",
+      "revenue": 35517.1,
+      "quantity": 255,
+      "orders": 120
+    },
+    {
+      "date": "2026-10-16",
+      "revenue": 43267.31,
+      "quantity": 278,
+      "orders": 125
+    },
+    {
+      "date": "2026-10-17",
+      "revenue": 34058.51,
+      "quantity": 246,
+      "orders": 115
+    },
+    {
+      "date": "2026-10-18",
+      "revenue": 33291.84,
+      "quantity": 227,
+      "orders": 114
+    },
+    {
+      "date": "2026-10-19",
+      "revenue": 27737.11,
+      "quantity": 223,
+      "orders": 115
+    },
+    {
+      "date": "2026-10-20",
+      "revenue": 30309.96,
+      "quantity": 194,
+      "orders": 91
+    },
+    {
+      "date": "2026-10-21",
+      "revenue": 32103.74,
+      "quantity": 222,
+      "orders": 103
+    },
+    {
+      "date": "2026-10-22",
+      "revenue": 31885.54,
+      "quantity": 207,
+      "orders": 101
+    },
+    {
+      "date": "2026-10-23",
+      "revenue": 31521.88,
+      "quantity": 213,
+      "orders": 106
+    },
+    {
+      "date": "2026-10-24",
+      "revenue": 30458.75,
+      "quantity": 192,
+      "orders": 101
+    },
+    {
+      "date": "2026-10-25",
+      "revenue": 35919.68,
+      "quantity": 252,
+      "orders": 108
+    },
+    {
+      "date": "2026-10-26",
+      "revenue": 35946.15,
+      "quantity": 243,
+      "orders": 111
+    },
+    {
+      "date": "2026-10-27",
+      "revenue": 33510.61,
+      "quantity": 228,
+      "orders": 118
+    },
+    {
+      "date": "2026-10-28",
+      "revenue": 37033.4,
+      "quantity": 278,
+      "orders": 118
+    },
+    {
+      "date": "2026-10-29",
+      "revenue": 38239.82,
+      "quantity": 260,
+      "orders": 115
+    },
+    {
+      "date": "2026-10-30",
+      "revenue": 30214.01,
+      "quantity": 223,
+      "orders": 113
+    },
+    {
+      "date": "2026-10-31",
+      "revenue": 32497.61,
+      "quantity": 226,
+      "orders": 113
+    },
+    {
+      "date": "2026-11-01",
+      "revenue": 37757.53,
+      "quantity": 269,
+      "orders": 118
+    },
+    {
+      "date": "2026-11-02",
+      "revenue": 30755.27,
+      "quantity": 230,
+      "orders": 111
+    },
+    {
+      "date": "2026-11-03",
+      "revenue": 28891.97,
+      "quantity": 211,
+      "orders": 112
+    },
+    {
+      "date": "2026-11-04",
+      "revenue": 38326.81,
+      "quantity": 257,
+      "orders": 119
+    },
+    {
+      "date": "2026-11-05",
+      "revenue": 29769.02,
+      "quantity": 187,
+      "orders": 91
+    },
+    {
+      "date": "2026-11-06",
+      "revenue": 23235.12,
+      "quantity": 196,
+      "orders": 109
+    },
+    {
+      "date": "2026-11-07",
+      "revenue": 29894.9,
+      "quantity": 205,
+      "orders": 102
+    },
+    {
+      "date": "2026-11-08",
+      "revenue": 25013.09,
+      "quantity": 166,
+      "orders": 87
+    },
+    {
+      "date": "2026-11-09",
+      "revenue": 33035.74,
+      "quantity": 260,
+      "orders": 117
+    },
+    {
+      "date": "2026-11-10",
+      "revenue": 37798.17,
+      "quantity": 241,
+      "orders": 111
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2026-08",
+      "revenue": 644506.49,
+      "quantity": 4510,
+      "orders": 2124
+    },
+    {
+      "month": "2026-09",
+      "revenue": 1031394.01,
+      "quantity": 7128,
+      "orders": 3321
+    },
+    {
+      "month": "2026-10",
+      "revenue": 1044256.11,
+      "quantity": 7294,
+      "orders": 3478
+    },
+    {
+      "month": "2026-11",
+      "revenue": 314477.62,
+      "quantity": 2222,
+      "orders": 1077
+    }
+  ],
+  "source": "sample_sales_10k.csv",
+  "seed": 42,
+  "date_from": "2026-08-13",
+  "date_to": "2026-11-10"
+}
